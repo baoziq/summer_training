@@ -1,10 +1,3 @@
-2024暑期实训课
-
-### 7.1下午
-
-学生管理系统（面向对象
-
-```python
 # 面向对象，学生管理系统
 class Student:
     def __init__(self, student_id, student_name, student_grade):
@@ -89,4 +82,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
