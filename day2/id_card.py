@@ -15,6 +15,7 @@ f = open('/Users/baozi/summer_training/day2/demo5.jpg', 'rb')
 img = base64.b64encode(f.read())
 
 params = {"id_card_side":"front","image":img}
+# 使用access_token2获取的token，未加密
 access_token = '24.83da07bf6a8065bfad0925e201de0168.2592000.1722496621.282335-89995986'
 request_url = request_url + "?access_token=" + access_token
 headers = {'content-type': 'application/x-www-form-urlencoded'}
