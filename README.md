@@ -27,3 +27,13 @@
 #### opencv
 
 opencv依赖于numpy 类型为ndarry
+
+### 7.3上午
+
+1 安装pyqt5
+
+```
+pip install pyqt5
+pip install pyqt5-tools
+```
+
