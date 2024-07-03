@@ -21,3 +21,9 @@
 身份证识别
 
 车辆识别
+
+### 7.2下午
+
+#### opencv
+
+opencv依赖于numpy 类型为ndarry
