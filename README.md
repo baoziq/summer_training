@@ -37,3 +37,8 @@ pip install pyqt5
 pip install pyqt5-tools
 ```
 
+### 7.3下午
+
+img
+
+video

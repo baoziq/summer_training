@@ -4,11 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3d2b565-7d2d-44c1-83ee-c67a8e33aba0" name="Changes" comment="7.3 second commit" />
+    <list default="true" id="b3d2b565-7d2d-44c1-83ee-c67a8e33aba0" name="Changes" comment="7.3 second commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/ai/haha.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/ai/haha.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/app/maindialog.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/app/maindialog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/app/mdui.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/app/mdui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/app/mdui.ui" beforeDir="false" afterPath="$PROJECT_DIR$/day3/app/mdui.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/app/video.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/app/video.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1719975882072</updated>
       <workItem from="1719975883102" duration="45000" />
-      <workItem from="1719993869997" duration="1484000" />
+      <workItem from="1719993869997" duration="5103000" />
     </task>
     <task id="LOCAL-00001" summary="7.3 second commit">
       <option name="closed" value="true" />
