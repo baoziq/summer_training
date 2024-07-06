@@ -5,7 +5,7 @@ import numpy as np
 import cv2 as cv
 
 
-class PeopleDialog(object):
+class CarDialog(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
         Dialog.resize(993, 696)
@@ -39,13 +39,13 @@ class PeopleDialog(object):
         self.frame_6.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_6.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_6.setObjectName("frame_6")
-        self.people_num = QtWidgets.QLabel(self.frame_6)
-        self.people_num.setGeometry(QtCore.QRect(0, 0, 211, 41))
+        self.carnum = QtWidgets.QLabel(self.frame_6)
+        self.carnum.setGeometry(QtCore.QRect(0, 0, 211, 41))
         font = QtGui.QFont()
         font.setPointSize(20)
-        self.people_num.setFont(font)
-        self.people_num.setStyleSheet("color:red\n""")
-        self.people_num.setObjectName("people_num")
+        self.carnum.setFont(font)
+        self.carnum.setStyleSheet("color:red\n""")
+        self.carnum.setObjectName("carnum")
         self.title = QtWidgets.QLabel(Dialog)
         self.title.setGeometry(QtCore.QRect(170, 20, 631, 41))
         font = QtGui.QFont()
@@ -61,8 +61,8 @@ class PeopleDialog(object):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
         self.video1.setText(_translate("Dialog", "TextLabel"))
-        self.label.setText(_translate("Dialog", "人流量"))
-        self.people_num.setText(_translate("Dialog", "0"))
+        self.label.setText(_translate("Dialog", "车流量"))
+        self.carnum.setText(_translate("Dialog", "0"))
         self.title.setText(_translate("Dialog", "人车流量检测系统"))
 
     def update_frame(self, frame):
@@ -71,7 +71,7 @@ class PeopleDialog(object):
         q_img = QImage(frame.data, width, height, bytes_per_line, QImage.Format_RGB888).rgbSwapped()
         self.video1.setPixmap(QPixmap.fromImage(q_img))
 
-    def update_people_count(self, num):
-        self.people_num.setText(f"行人数量: {num}")
+    def update_vehicle_count(self, num):
+        self.carnum.setText(f"车辆数量: {num}")
 
 

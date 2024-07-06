@@ -6,12 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="b3d2b565-7d2d-44c1-83ee-c67a8e33aba0" name="Changes" comment="7.3 second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day3/ai/haha.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/ai/haha.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day3/app/maindialog.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/app/maindialog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day3/app/mdui.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/app/mdui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day3/app/mdui.ui" beforeDir="false" afterPath="$PROJECT_DIR$/day3/app/mdui.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day3/app/video.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/app/video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/ai/car_people.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/ai/car_people.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/detector/DetectorAPP.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/detector/DetectorAPP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/detector/MainFrame.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/detector/MainFrame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/detector/PeopleFrameUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/detector/PeopleFrameUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/detector/carFrame.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/detector/carFrame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/detector/peopleFrame.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/detector/peopleFrame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/detector/video.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/detector/video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/detector/video_people.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/detector/video_people.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,17 +35,29 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2iiaWO3zaB2kCwCnuA3Xr6hCMnC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.DetectorFrame.executor": "Run",
+    "Python.DetectorFrameUI.executor": "Run",
+    "Python.MainFrame.executor": "Run",
+    "Python.MainUI.executor": "Run",
+    "Python.car.executor": "Run",
+    "Python.carFrame.executor": "Run",
+    "Python.car_people.executor": "Run",
+    "Python.first.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.second.executor": "Run",
     "Python.studentsys.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/baozi/summer_training/day3",
+    "last_opened_file_path": "/Users/baozi/summer_training/project1/data",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,8 +69,138 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project1/data" />
       <recent name="$PROJECT_DIR$/day3" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project1/detector" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="CarFrameUI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="summer_training" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project1/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project1/detector/CarFrameUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MainFrame" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="summer_training" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project1/detector" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project1/detector/MainFrame.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="carFrame" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="summer_training" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project1/detector" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project1/detector/carFrame.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="car_people" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="summer_training" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project1/ai" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project1/ai/car_people.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="summer_training" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project1/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.car_people" />
+        <item itemvalue="Python.carFrame" />
+        <item itemvalue="Python.MainFrame" />
+        <item itemvalue="Python.CarFrameUI" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -74,7 +219,9 @@
       <option name="presentableId" value="Default" />
       <updated>1719975882072</updated>
       <workItem from="1719975883102" duration="45000" />
-      <workItem from="1719993869997" duration="5103000" />
+      <workItem from="1719993869997" duration="40217000" />
+      <workItem from="1720162837154" duration="2757000" />
+      <workItem from="1720167074883" duration="8881000" />
     </task>
     <task id="LOCAL-00001" summary="7.3 second commit">
       <option name="closed" value="true" />
@@ -104,6 +251,13 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/summer_training$studentsys.coverage" NAME="studentsys Coverage Results" MODIFIED="1719994498228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1" />
-    <SUITE FILE_PATH="coverage/summer_training$main.coverage" NAME="main Coverage Results" MODIFIED="1719994652374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
+    <SUITE FILE_PATH="coverage/summer_training$MainFrame.coverage" NAME="MainFrame Coverage Results" MODIFIED="1720172546748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project1/detector" />
+    <SUITE FILE_PATH="coverage/summer_training$second.coverage" NAME="DetectorFrameUI Coverage Results" MODIFIED="1720143918461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project1/data" />
+    <SUITE FILE_PATH="coverage/summer_training$DetectorFrame.coverage" NAME="DetectorFrame Coverage Results" MODIFIED="1720151358330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project1/detector" />
+    <SUITE FILE_PATH="coverage/summer_training$first.coverage" NAME="first Coverage Results" MODIFIED="1720082262077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project1/data" />
+    <SUITE FILE_PATH="coverage/summer_training$main.coverage" NAME="main Coverage Results" MODIFIED="1720186027433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project1" />
+    <SUITE FILE_PATH="coverage/summer_training$carFrame.coverage" NAME="carFrame Coverage Results" MODIFIED="1720174479807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project1/detector" />
+    <SUITE FILE_PATH="coverage/summer_training$MainUI.coverage" NAME="MainUI Coverage Results" MODIFIED="1720140260458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project1/data" />
+    <SUITE FILE_PATH="coverage/summer_training$car.coverage" NAME="car_people Coverage Results" MODIFIED="1720175722643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project1/ai" />
   </component>
 </project>

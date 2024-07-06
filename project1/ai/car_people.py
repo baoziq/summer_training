@@ -4,11 +4,10 @@ import base64
 import cv2 as cv
 from PIL import ImageFont, ImageDraw, Image
 
-vehicle_access_token = '24.72c5e2b23aa07e134c733c0d081eeaaa.2592000.1722478097.282335-89934902'  # 替换为你的百度云车辆检测 API access_token
-pedestrian_access_token = '24.7dd4d86b0a3f9639cc863b073a836101.2592000.1722761117.282335-91002993'
 
+def vehicle_detect(img):
+    vehicle_access_token = '24.72c5e2b23aa07e134c733c0d081eeaaa.2592000.1722478097.282335-89934902'
 
-def vehicle_detect(img, vehicle_access_token):
     # 百度云车辆检测接口地址
     vehicle_detect_url = "https://aip.baidubce.com/rest/2.0/image-classify/v1/vehicle_detect"
 
@@ -47,7 +46,9 @@ def vehicle_detect(img, vehicle_access_token):
     return img, num_cars
 
 
-def pedestrian_detect(img, pedestrian_access_token):
+def pedestrian_detect(img):
+    pedestrian_access_token = '24.7dd4d86b0a3f9639cc863b073a836101.2592000.1722761117.282335-91002993'
+
     # 百度云人流量检测接口地址
     pedestrian_detect_url = "https://aip.baidubce.com/rest/2.0/image-classify/v1/body_num"
 
@@ -71,36 +72,25 @@ def pedestrian_detect(img, pedestrian_access_token):
         pedestrian_data = response.json()  # 解析人流量检测接口的响应 JSON 数据
         num_pedestrians = pedestrian_data.get('person_num', 0)  # 获取识别出的行人数量
 
-        # 遍历每个检测到的行人信息
-        for person in pedestrian_data.get('person_info', []):
-            location = person.get('location', {})  # 行人位置信息
-            x1 = location.get('left', 0)  # 左上角 x 坐标
-            y1 = location.get('top', 0)  # 左上角 y 坐标
-            x2 = x1 + location.get('width', 0)  # 右下角 x 坐标
-            y2 = y1 + location.get('height', 0)  # 右下角 y 坐标
-
-            # 在图像上绘制检测到的行人位置
-            cv.rectangle(img, (x1, y1), (x2, y2), (255, 0, 0), 2)
-
     # 返回处理后的图像和识别出的行人数量
     return img, num_pedestrians
 
 
-if __name__ == '__main__':
-
-    img_path = '/Users/baozi/summer_training/project1/data/img3.jpg'
-    read_img = cv.imread(img_path)
-
-    if read_img is None:
-        print(f"无法读取图像文件：{img_path}")
-    else:
-        show_img, num_cars = vehicle_detect(read_img, vehicle_access_token)
-        show_img, num_pedestrians = pedestrian_detect(show_img, pedestrian_access_token)
-
-        print(f"识别到 {num_cars} 辆车辆。")
-        print(f"识别到 {num_pedestrians} 个行人。")
-
-        # 显示处理后的图像
-        cv.imshow('img', show_img)
-        cv.waitKey(0)
-        cv.destroyAllWindows()
+# if __name__ == '__main__':
+#
+#     img_path = '/Users/baozi/summer_training/project1/data/img3.jpg'
+#     read_img = cv.imread(img_path)
+#
+#     if read_img is None:
+#         print(f"无法读取图像文件：{img_path}")
+#     else:
+#         show_img, num_cars = vehicle_detect(read_img)
+#         # show_img, num_pedestrians = pedestrian_detect(read_img)
+#
+#         # print(f"识别到 {num_cars} 辆车辆。")
+#         print(f"识别到 {num_cars} 个行人。")
+#
+#         # 显示处理后的图像
+#         cv.imshow('img', show_img)
+#         cv.waitKey(0)
+#         cv.destroyAllWindows()
